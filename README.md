@@ -1,8 +1,9 @@
 # Android-A-1
 My Android codes-1
 #Linear Activity
+
 class LinearActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
+override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.linear)
